@@ -75,7 +75,7 @@
   &none         &none           &none    &kp UP_ARROW            &none         &none            &bootloader                                                                     &bootloader   &none       &none       &none   &none   &none   &none
   &none         &none  &kp LEFT_ARROW  &kt DOWN_ARROW  &kt RIGHT_ARROW         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
   &none         &none           &none           &none            &none         &none                                  &none                       &none                                       &none       &none       &none   &none   &none   &none
-  &none         &none           &none           &none            &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
+ &trans         &none           &none           &none            &none                               &trans  &trans   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
             >;
         };
 
