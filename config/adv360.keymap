@@ -70,11 +70,11 @@
 
         layer_mod {
             bindings = <
- &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                 &trans                                                                          &trans  &trans           &none           &none            &none   &none   &none
- &trans        &trans        &trans        &trans        &trans        &trans            &bootloader                                                                     &bootloader  &trans     &kp PAGE_UP    &kp UP_ARROW    &kp PAGE_DOWN   &none   &none
- &trans        &trans        &trans        &trans        &trans        &trans                 &trans  &trans  &trans                  &bt BT_CLR      &trans  &rgb_ug RGB_MEFS_CMD 5  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW   &none   &none
- &trans        &trans        &trans        &trans        &trans        &trans                                 &trans                      &trans                                      &trans        &kp HOME           &none          &kp END   &none   &none
- &trans        &trans        &trans        &trans        &trans                               &trans  &trans  &trans                      &trans  &bl BL_TOG         &rgb_ug RGB_TOG              &bl BL_INC      &bl BL_DEC            &none   &none   &none
+ &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                 &trans                                                                          &trans  &trans          &trans          &trans           &trans  &trans  &trans
+ &trans        &trans        &trans        &trans        &trans        &trans            &bootloader                                                                     &bootloader  &trans     &kp PAGE_UP    &kp UP_ARROW    &kp PAGE_DOWN  &trans  &trans
+ &trans        &trans        &trans        &trans        &trans        &trans                 &trans  &trans  &trans                  &bt BT_CLR      &trans  &rgb_ug RGB_MEFS_CMD 5  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+ &trans        &trans        &trans        &trans        &trans        &trans                                 &trans                      &trans                                      &trans        &kp HOME           &none          &kp END  &trans  &trans
+ &trans        &trans        &trans        &trans        &trans                               &trans  &trans  &trans                      &trans  &bl BL_TOG         &rgb_ug RGB_TOG              &bl BL_INC      &bl BL_DEC           &trans  &trans  &trans
             >;
         };
 
